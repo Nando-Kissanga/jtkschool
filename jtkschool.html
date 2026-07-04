@@ -1110,6 +1110,34 @@
   </div>
   <div class="toast-container" id="toastContainer"></div>
 
+
+
+
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.15.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCUMJ5QCrLnsQlex2kW4PvCSnsBdlROKBE",
+    authDomain: "jtkschool-5bfde.firebaseapp.com",
+    projectId: "jtkschool-5bfde",
+    storageBucket: "jtkschool-5bfde.firebasestorage.app",
+    messagingSenderId: "1038101986431",
+    appId: "1:1038101986431:web:d11e4eb981724d5125934a",
+    measurementId: "G-2H20CYC7EZ"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  </script>
+
+  
   <script>
     (function() {
       // ===== STATE INICIAL VAZIO =====
